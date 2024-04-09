@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div1{
+  height: 300px;
+  width: 500px;
+  background-image: url('../public/img/dark-background-abstract-background-network-3d-background-6016x3384-8324.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 10px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.div2{
+  height: 50px;
+  width: 100%;
+  margin-top: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.div3{
+  height: 500px;
+  width: 50%;
+  background: red;  
+}
+
+/* bgimg */
+.img1{
+  height: 80px;
+  width: 100px;
+  background: none;
+}
+
+/* input */
+.input1{
+  width: 90%;
+  padding: 5px 10px;
+  border: 1px solid white;
+  background: none;
+  outline: none;
   color: white;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.input2{
+  width: 90%;
+  padding: 5px 10px;
+  border: 1px solid white;
+  background: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input3{
+  width: 45%;
+  padding: 5px 10px;
+  border: 1px solid white;
+  background: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+
+.input4{
+  width: 45%;
+  padding: 5px 10px;
+  border: 1px solid white;
+  background: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+
+.input5{
+  width: 99%;
+  padding: 10px 10px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+
+.input6{
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+
+.btn1{
+  margin: 20px 0px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: #2364d2;
 }
