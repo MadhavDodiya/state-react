@@ -30,7 +30,7 @@ function App() {
 
               <div className='col-md-4'>
                 <input type='text' placeholder='MM' className='input3' value={cardmonth}/>
-                <input type='text' placeholder='YY' className='input4' value={cardyear}/>
+                <input type='year' placeholder='YY' className='input4' value={cardyear}/>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ function App() {
             </div>
 
             <div className='col-md-6'>
-            <input type='text' placeholder='YEAR' maxLength={4} className='input6' onChange={(y) => setCardyear(y.target.value)}/>
+            <input type='year' placeholder='YEAR' maxLength={4} className='input6' onChange={(y) => setCardyear(y.target.value)}/>
             </div>
           </div>
 
